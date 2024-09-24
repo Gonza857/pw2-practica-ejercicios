@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    position: relative;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    height: 7rem;
+    border-bottom: 2px dashed firebrick;
+    background-color: antiquewhite;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* padding-bottom: 1rem; */
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+.menuListContainer {
+    display: flex;
+}
+
+.menuListContainer li {
+    padding-right: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+main {
+    margin-top: 7.56rem;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.ejercicioCard {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iframeContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
